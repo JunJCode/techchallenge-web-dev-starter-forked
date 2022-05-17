@@ -1,0 +1,92 @@
+  * {
+    font-family: 'Arima Madurai', cursive;
+  }
+
+  #welcome {
+  background-image: url("///Users/jjkm427/Documents/WebDev/Wild-Code-School/projects/techchallenge-web-dev-starter-forked/assets/super_mario_kingdom.png");
+  background-size: contain;
+  background-position: center;
+  width: auto;
+  height:650px;
+  background-repeat: no-repeat;
+}
+
+section {
+  padding: 20px;
+}
+
+#title {
+  font-size: 50px;
+  color: lightgoldenrodyellow;
+  text-align: center;
+  text-decoration:none;
+  text-shadow: 1px 1px 2px black;
+}
+
+#logo {
+  width: 150px;
+  height: 75px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+ul li a {
+  color:red;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+.menu {
+padding-top: 10px;
+}
+
+p {
+  font-size: 18px;
+  text-align: justify;
+  padding: 0 20px;
+  line-height: 1.4;
+}
+
+h2, h1 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.photo {
+  width: 250px;
+  height: 350px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top:70px;
+}
+
+table, tr, td, th {
+  border: solid 1px black;
+  border-collapse: collapse;
+  font-size: 20px;
+  padding: 5px;
+}
+
+table {
+  text-align: center;
+}
+
+.assets {
+  padding: 30px 340px;
+}
+
+.contact-form {
+  padding: 30px 40%;
+}
+
+input, textarea {
+  margin-bottom: 10px;
+  width: 100%;
+}
